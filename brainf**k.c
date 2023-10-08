@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2)
     {
-        printf("Usage: %s <filename>\n", argv[0]);
+        printf("Brainf**k interpreter \n Usage: %s <filename>\n", argv[0]);
         return 1;
     }
 
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
     }
     if (opening_brack != closing_brack)
     {
-        printf("All brackets dont match\n");
+        printf("\nError : All brackets dont match\n");
         return -1;
     }
 
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
         if (ptr < 0 || ptr > 30000)
         {
             // throw an error
-            printf("Pointer out of bounds\n");
+            printf("Error : Pointer out of bounds \n while executing char %d \n", i );
             return -1;
         }
 
