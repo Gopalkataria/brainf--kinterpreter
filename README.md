@@ -34,4 +34,4 @@ This interpreter has the following limitations:
 * It does not support multi-byte characters or Unicode.
 * It does not support input or output redirection.
 ## License
-This interpreter is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute it as you see fit.
+This interpreter is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as you see fit.
