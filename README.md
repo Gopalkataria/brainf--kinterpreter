@@ -1,9 +1,9 @@
-# Brainfuck Interpreter (C)
+# Brainf**k Interpreter (C)
 
-This is a simple Brainfuck interpreter written in C.
+This is a simple Brainf**k interpreter written in C.
 
 ## Features
-This interpreter supports the following Brainfuck commands:
+This interpreter supports the following Brainf**k commands:
 
 * \+ : Increment the value at the current memory cell.
 * \- : Decrement the value at the current memory cell.
@@ -30,7 +30,7 @@ run a brainf**k file by passing it as an arument for bf executable
 ## Limitations
 This interpreter has the following limitations:
 
-* It only supports Brainfuck code with a maximum of 30,000 memory cells.
+* It only supports Brainf**k code with a maximum of 30,000 memory cells.
 * It does not support multi-byte characters or Unicode.
 * It does not support input or output redirection.
 ## License
